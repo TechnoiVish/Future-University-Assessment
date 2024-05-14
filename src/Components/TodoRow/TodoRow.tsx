@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Checkbox from "../Checkbox/Checkbox.jsx";
-import SmallButton from "../Buttons/SmallButton.jsx";
+import Checkbox from "../Checkbox/Checkbox.tsx";
+import SmallButton from "../Buttons/SmallButton.tsx";
 
 const TodoRow = (props) => {
   const [hovered, setHovered] = useState(false);

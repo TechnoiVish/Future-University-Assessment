@@ -1,6 +1,6 @@
 import "./App.css";
-import TodoRow from "./Components/TodoRow/TodoRow.jsx";
-import BigButton from "./Components/Buttons/BigButton.jsx";
+import TodoRow from "./Components/TodoRow/TodoRow.tsx";
+import BigButton from "./Components/Buttons/BigButton.tsx";
 import React, { Component } from "react";
 
 class App extends Component {
